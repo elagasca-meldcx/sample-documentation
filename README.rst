@@ -17,22 +17,22 @@ Prerequisites
 Tools
 ++++
 
-    * Python; >= 3.8, < 3.10
-    * Node.js; >= 16.17
-    * Docker
+* Python; >= 3.8, < 3.10
+* Node.js; >= 16.17
+* Docker
 
 Servers
 ++++
 
-    * Postgres
-    * Redis
-    * ZMQ
+* Postgres
+* Redis
+* ZMQ
 
 External Services
 ++++
 
-    * Databricks
-    * Google Firebase
+* Databricks
+* Google Firebase
 
 Setup
 ~~~~
@@ -100,13 +100,13 @@ Or build a Docker image and push to the remote container registry.
 CI/CD
 ~~~~
 
-    * Ensure that the CI/CD YAML file is updated
-    * Push code to remote to trigger CI/CD based on the rules set in the service provider
+* Ensure that the CI/CD YAML file is updated
+* Push code to remote to trigger CI/CD based on the rules set in the service provider
 
 Additional Documentation
 ====
 
 These are additional detailed documentation for the project located at:
 
-    * the ``/docs`` folder of the repository
-    * the external knowledgebase like JIRA Confluence or Google Docs
+* the ``/docs`` folder of the repository
+* the external knowledgebase like JIRA Confluence or Google Docs
