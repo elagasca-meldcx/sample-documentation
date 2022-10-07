@@ -119,10 +119,6 @@ Additional Documentation
 These are additional detailed documentation for the project located at the ``/docs`` folder of the repository, or an external knowledgebase like JIRA Confluence or Google Docs.
 
 ----
-`Examples <./docs/examples.rst>`_
-----
-
-----
 `FAQ <./docs/faq.rst>`_
 ----
 
