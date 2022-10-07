@@ -8,37 +8,43 @@ This is a 2 to 3 sentence description about the project. It doesn't need to be t
 Usage
 ====
 
+----
 Developing
 ----
 
 Prerequisites
-~~~~
+----
 
+~~~~
 Tools
-++++
+~~~~
 
 * Python; >= 3.8, < 3.10
 * Node.js; >= 16.17
 * Docker
 
+~~~~
 Servers
-++++
+~~~~
 
 * Postgres
 * Redis
 * ZMQ
 
+~~~~
 External Services
-++++
+~~~~
 
 * Databricks
 * Google Firebase
 
-Setup
-~~~~
 
+Setup
+----
+
+~~~~
 Clone
-++++
+~~~~
 
 Clone the repository to the local development machine.
 
@@ -47,8 +53,9 @@ Clone the repository to the local development machine.
     $ git clone git@github.com:project/repository.git
     $ cd repository
 
+~~~~
 Environment
-++++
+~~~~
 
 Create a virtual environment (for Python).
 
@@ -59,6 +66,7 @@ Create a virtual environment (for Python).
     (.venv) $ python -m pip install -U pip
     (.venv) $ python -m pip install -r requirements.txt
 
+~~~~
 Configure
 ~~~~
 
@@ -70,6 +78,7 @@ Setup the environment variables.
     (.venv) $ echo 'DB_URL=postgres://username:password@localhost:5432/dbname' >> .env
     (.venv) $ echo 'FIREBASE_API_KEY=blah-blah-blah' >> .env
 
+~~~~
 Run
 ~~~~
 
@@ -79,11 +88,12 @@ Run the code.
 
     (.venv) $ python app.py
 
+----
 Deploying
 ----
 
 Package
-~~~~
+----
 
 Create bundle or compile the application *(if needed)*.
 
@@ -98,7 +108,7 @@ Or build a Docker image and push to the remote container registry.
     (.venv) $ docker build -t project/app:version .
 
 CI/CD
-~~~~
+----
 
 * Ensure that the CI/CD YAML file is updated
 * Push code to remote to trigger CI/CD based on the rules set in the service provider
@@ -106,7 +116,16 @@ CI/CD
 Additional Documentation
 ====
 
-These are additional detailed documentation for the project located at:
+These are additional detailed documentation for the project located at the ``/docs`` folder of the repository, or an external knowledgebase like JIRA Confluence or Google Docs.
 
-* the ``/docs`` folder of the repository
-* the external knowledgebase like JIRA Confluence or Google Docs
+----
+`FAQ <./docs/faq.rst>`_
+----
+
+----
+`How-to <./docs/howto.rst>`_
+----
+
+----
+`Troubleshooting <./docs/troubleshooting.rst>`_
+----
